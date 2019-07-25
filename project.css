@@ -1,0 +1,173 @@
+#list >li{
+    display:inline;
+    list-style:none;
+    margin:7px;
+    margin-left: 0px;
+    text-align:center;
+    vertical-align: center;
+
+}
+#list{
+    margin: 0px 9px 10px 0px;
+    display:inline;
+    vertical-align: 30px;
+    cursor:default;
+ 
+}
+#logs
+{
+    margin: 0px 10px 10px 0px;
+    text-align: right;
+
+}
+.slides
+{
+    margin:20px 70px;
+    border-left: 3px outset #2e0444 ;
+    border-top: 4px outset #88229f;
+    box-shadow: 2px 2px 2px 2px #2e0444;
+}
+body{
+    background-image:  url("project image/background.jpg") ;
+    background-size: fixed;
+    background-position:center; 
+    background-size: cover;  
+}
+#logo{
+    margin-left: 20px;
+    
+}
+.phonelist{
+
+    display:block;
+    position: absolute;
+    right: 300px;
+    left: 180px;
+    top:90px;
+    background-image:  url("project image/background4.jpg") ;
+    background-size: cover;
+    padding-left:13px;
+    margin :4px;
+    width:80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+.phlist{
+    display: block;
+    text-align:justify;
+    margin: 4px;
+}
+ li:hover{
+    font-weight:bold;
+    }
+/* SAMSUNG STYLING */
+#Samsunglogo{
+    align-content: bottom;
+    width: 110px;
+    height: 70px;
+    margin-left: 5px;
+    margin-right: 0px;
+    vertical-align: 20px;
+}
+#samsungimages img{
+    width: 200px;
+    height:150px;
+    margin:10px;
+    border: 1px outset black;
+
+}
+#cart1{
+    width: 60px;
+    height:60px;
+}
+
+table img{
+    width: 150px;
+    height:100px;
+    margin-left:50px;
+    text-align: left;
+    margin-top:20px;
+    
+}
+.cartbutton,#loginbutt{
+    background: linear-gradient(to bottom ,purple,rgba(252, 8, 142, 0.192));
+    border: 0.5px outset black;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin:3px 7px;
+    padding: 8px;
+    background-color:rgb(207, 127, 214);
+    box-shadow: 2px inset  darkgray;
+    border-bottom: 1.5px outset darkslategrey;
+    border-left: 1.5px outset black;
+    background: linear-gradient(top,rgb(128, 0, 128),pink);
+    text-shadow: 0px 1px 0px darkgrey;
+    
+}
+#login
+{
+    height:50px;
+    width:50px;
+    margin:30px;
+    position:absolute;
+    right:210px;
+    top:5px;
+}
+#useremail>input
+   {
+    margin-left:40px;
+    margin-top:30px;
+   }
+    #userpass>input{
+        margin-left:20px;
+        margin-top:20px;
+        margin-bottom: 30px;
+    }
+    h1{
+        font-size:50px;
+        text-decoration:underline purple;
+        font-style:italic;
+      text-shadow: 0px 1px 0px darkgrey;
+
+    }
+    .cartbutton:hover{
+        background: linear-gradient(to bottom ,purple,rgba(252, 8, 142, 0.192));
+        border: 0.5px outset black;
+        font-style: oblique;
+        font-weight: bolder;
+        font-family: 'Times New Roman', Times, serif;
+        font-size:  14px;
+         
+         margin:3px 7px;
+        padding: 8px;
+        background-color:rgb(207, 127, 214);
+        box-shadow: 2px inset  darkgray;
+        border-bottom: 1.5px outset darkslategrey;
+        border-left: 1.5px outset black;
+        background: linear-gradient(top,rgb(128, 0, 128),pink);
+        text-shadow: 0px 1px 0px darkgrey;
+    }
+    title
+    {
+background-image: url("project image/logo1.png");
+    }
+    #carthead
+    {
+        display: inline;
+        margin: 20px;
+        text-align: 30px;
+    }
+  h3{
+      display: inline;
+      margin-left: 330px;
+  }
+  h3 p{
+     position:fixed;
+
+  }
+  #loginpage{
+      align-items:center;
+      margin-left:280px;
+  }
